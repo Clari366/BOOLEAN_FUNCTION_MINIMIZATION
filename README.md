@@ -17,6 +17,16 @@ Hardware – PCs, Cyclone II , USB flasher
 
 Boolean Algebra is a branch of algebra that deals with boolean values-true and false.It is fundamental to digital logic design and computer science,providing a mathamatical framework for describing logical operation and expressions.
 
+**Boolean Function Minimization**
+
+**F1**
+
+![WhatsApp Image 2024-12-21 at 8 56 17 AM](https://github.com/user-attachments/assets/51c612b6-c321-42a3-a88e-2ec32febf5d5)
+
+**F2**
+
+![WhatsApp Image 2024-12-21 at 8 56 30 AM](https://github.com/user-attachments/assets/4ce16ede-2a6d-4295-840a-8e01988d9ae5)
+
 
 **Logic Diagram**
 
@@ -41,6 +51,7 @@ Boolean Algebra is a branch of algebra that deals with boolean values-true and f
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
 Developed by:clarissa k  RegisterNumber:*/24009830
+**F1**
 ```
 
 module funct1(a,b,c,d,f1);
@@ -49,6 +60,7 @@ output f1;
 assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
 endmodule
 ```
+**F2**
 ```
 module funct2(w,x,y,z,f2);
 input w,x,y,z;
@@ -61,13 +73,13 @@ endmodule
 **Output:**
 
 **RTL**
-f1:
+**f1**:
 
 ![Screenshot 2024-11-05 073250](https://github.com/user-attachments/assets/7205227f-7358-49ea-89dc-702646bc5f07)
 
 
 
-f2:
+**f2**:
 
 ![Screenshot 2024-11-05 074550](https://github.com/user-attachments/assets/b1d130ce-a97f-43a4-bda9-9c0b688422fa)
 
@@ -75,7 +87,13 @@ f2:
 
 f1:
 
-![WhatsApp Image 2024-12-10 at 8 40 13 PM (1)](https://github.com/user-attachments/assets/42b60673-eab7-4974-a5b7-6b1705315e44)
+![Screenshot 2024-12-23 133840](https://github.com/user-attachments/assets/de718fc7-1460-49d5-b071-87c10a84dbc9)
+
+
+
+
+
+
 
 f2:
 ![Screenshot 2024-11-05 074851](https://github.com/user-attachments/assets/e3db1534-52a8-4a04-beb4-8ff49fc32124)
